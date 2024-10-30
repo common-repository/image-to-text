@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "image-to-text/imagetotext-block",
+  "title": "Convert text to image",
+  "category": "widgets",
+  "icon": "admin-appearance",
+  "description": "Convert text to image.",
+  "keywords": [
+	"image",
+	"text"
+  ],
+  "version": "1.0.3",
+  "textdomain": "image-to-text",
+  "supports": {
+    "customClassName": false,
+    "className": false,
+    "html": false
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
